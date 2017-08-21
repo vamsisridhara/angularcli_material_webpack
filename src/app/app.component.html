@@ -1,11 +1,41 @@
-<h1>
-  {{title}}
-</h1>
-
- <div>
-    <a md-button color="primary">Flat button</a>
-    <a md-raised-button color="accent">Raised button</a>
-    <a md-fab color="primary"><md-icon>check</md-icon></a>
-    <a md-mini-fab color="primary"><md-icon>check</md-icon></a>
-  </div>
-  
+<div class="container">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-3">
+                <dough-nut [inputLabels]="labels" 
+                [inputData]="data"></dough-nut>
+            </div>
+            <div class="col-md-3">
+                <dough-nut [inputLabels]="labels" 
+                [inputData]="data"></dough-nut>
+            </div>
+            <div class="col-md-5">
+               <line-chart></line-chart>
+            </div>
+        </div>
+    </div>
+      <div class="form-group">
+        <div class="row">
+            <div class="col-md-3">
+                <dough-nut [inputLabels]="labels" 
+                [inputData]="data"></dough-nut>
+            </div>
+            <div class="col-md-3">
+                <dough-nut [inputLabels]="labels" 
+                [inputData]="data"></dough-nut>
+            </div>
+            <div class="col-md-5">
+               <line-chart></line-chart>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-12">
+                <server-paging-demo></server-paging-demo>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>

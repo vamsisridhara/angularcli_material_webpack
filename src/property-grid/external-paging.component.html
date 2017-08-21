@@ -1,0 +1,23 @@
+<div>
+    <input type='text' style='padding:8px;margin:15px auto;width:30%;' 
+    placeholder='Search' 
+    (keyup)='updateFilter($event)'
+/>
+</div>
+<div>
+    <ngx-datatable 
+        #table
+        class="material" [rows]="rows" 
+        [columnMode]="'force'" 
+        [columns]="[{name:'IMG'},{name:'ADDRESS'},{name:'GAV'},{name:'LEASED'},
+            {name:'REVENUE'},{name:'TYPE'},{name:'PRODUCT NAME'},{name:'LEASE EXPIRED'}]" 
+        [headerHeight]="50" 
+        [footerHeight]="50"
+        [rowHeight]="'auto'" 
+        [externalPaging]="true" 
+        [count]="page.totalElements" 
+        [offset]="page.pageNumber"
+        [limit]="page.size"
+        (page)='setPage($event)'>
+    </ngx-datatable>
+</div>

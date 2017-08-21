@@ -1,0 +1,80 @@
+<input type='text' style='padding:8px;margin:15px auto;width:30%;' placeholder='Type to filter the address column...' (keyup)='updateFilter($event)'
+/>
+<div>
+
+
+      <ngx-datatable class='material' [rows]='rows' 
+    [columnMode]="'force'" [headerHeight]="50" 
+    [footerHeight]="0" [rowHeight]="50"
+        [columns]="[{name:'img'},{name:'ADDRESS'},{name:'GAV'},{name:'LEASED'},{name:'REVENUE'},{name:'TYPE'},
+        {name:'PRODUCT NAME'},{name:'LEASE EXPIRED'}]" 
+        [scrollbarV]="true"
+        [loadingIndicator]="loadingIndicator" (page)="onPage($event)">
+    
+    </ngx-datatable> 
+
+    <!-- <ngx-datatable class='material' [rows]='rows' [columnMode]="'force'" 
+    [headerHeight]="50" [footerHeight]="0" [rowHeight]="50"
+        [scrollbarV]="true" [loadingIndicator]="loadingIndicator" 
+        (page)="onPage($event)">
+        <ngx-datatable-column name="id" width="50">
+            <ng-template let-value="id" ngx-datatable-cell-template>
+                <strong>{{id}}</strong>
+            </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="address" width="50">
+            <ng-template let-value="address" ngx-datatable-cell-template>
+                <strong>{{address}}</strong>
+            </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="gav" width="50">
+            <ng-template let-row="row" let-value="gav" ngx-datatable-cell-template>
+                <i>{{gav}}</i>
+            </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="leased" width="50">
+            <ng-template let-row="row" let-value="leased" ngx-datatable-cell-template>
+                <i>{{leased}}</i>
+            </ng-template>
+        </ngx-datatable-column>
+         <ngx-datatable-column name="revenue" width="50">
+            <ng-template let-row="row" let-value="revenue" ngx-datatable-cell-template>
+                <i>{{revenue}}</i>
+            </ng-template>
+        </ngx-datatable-column>
+         <ngx-datatable-column name="type" width="50">
+            <ng-template let-row="row" let-value="type" ngx-datatable-cell-template>
+                <i>{{type}}</i>
+            </ng-template>
+        </ngx-datatable-column>
+         <ngx-datatable-column name="productName" width="50">
+            <ng-template let-row="row" let-value="productName" ngx-datatable-cell-template>
+                <i>{{productName}}</i>
+            </ng-template>
+        </ngx-datatable-column>
+
+         <ngx-datatable-column name="leaseExpired" width="50">
+            <ng-template let-row="row" let-value="leaseExpired" ngx-datatable-cell-template>
+                <i>{{leaseExpired}}</i>
+            </ng-template>
+        </ngx-datatable-column>
+        
+    </ngx-datatable>   -->
+</div>
+<style>
+    .server-scrolling-demo {
+        height: calc(100vh - 110px);
+    }
+
+    .server-scrolling-demo .progress-linear {
+        position: fixed !important;
+        bottom: 0px;
+    }
+
+    ngx-datatable {
+        text-align: left;
+        width: 75%;
+        margin: 0 auto;
+        height: 550px;
+    }
+</style>

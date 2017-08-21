@@ -1,0 +1,626 @@
+[
+    {
+        "id": 1,
+        "img":"<img width='40' height='40' src='../assets/angular.png' />",
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  / 20%"
+    },{
+        "id": 1,
+        "img":"<img width='40' height='40' src='../assets/angular.png' />",
+        "address": "200 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M / 20%"
+    },{
+        "id": 1,
+        "address": "300 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    },{
+        "id": 1,
+        "address": "100 High Street  Boston MA 2110 Class A - 546,336 RSF",
+        "gav": "$34.02 M",
+        "leased": "19.6%",
+        "revenue": "$5.7M",
+        "type": "Office",
+        "productName": "Product Name 01",
+        "leaseExpired": "$22.54M  20%"
+    }
+]
