@@ -48,6 +48,7 @@ import {
     MdSnackBar
 } from '@angular/material';
 import { CdkTableModule } from "@angular/cdk";
+import { ChartComponent } from "property-grid/chart.component";
 @NgModule({
     imports: [
         CommonModule,
@@ -62,12 +63,14 @@ import { CdkTableModule } from "@angular/cdk";
         PropertyListComponent,
         ServerPagingComponent,
         DoughnutComponent,
-        LinechartComponent
+        LinechartComponent,
+        ChartComponent
     ],
     exports: [
         PropertyGridComponent,
         PropertyListComponent,
         ServerPagingComponent,
+        ChartComponent,
         DoughnutComponent,
         LinechartComponent,
         MaterialModule,

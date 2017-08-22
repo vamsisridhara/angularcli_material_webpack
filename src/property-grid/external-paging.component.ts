@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { MockServerResultsService } from "service/mock.service";
 import { CorporateEmployee, Page } from "service/corporateEmployee";
 import { PropertyList } from "viewmodels/PropertyList";
-import { DatatableComponent } from "@swimlane/ngx-datatable/release";
+import { DatatableComponent } from "@swimlane/ngx-datatable";
 
 @Component({
   selector: 'server-paging-demo',
@@ -12,11 +12,15 @@ export class ServerPagingComponent {
 
   page = new Page();
   rows = new Array<PropertyList>();
+  columns = [];
+  temp = new Array<PropertyList>();
   @ViewChild(DatatableComponent) table: DatatableComponent;
-  
+
   constructor(private serverResultsService: MockServerResultsService) {
     this.page.pageNumber = 0;
     this.page.size = 10;
+    this.columns = [{ name: 'IMG' }, { name: 'ADDRESS' }, { name: 'GAV' }, { name: 'LEASED' },
+    { name: 'REVENUE' }, { name: 'TYPE' }, { name: 'PRODUCT NAME' }, { name: 'LEASE EXPIRED' }];
   }
 
   ngOnInit() {
@@ -32,16 +36,24 @@ export class ServerPagingComponent {
     this.serverResultsService.getResults(this.page).subscribe(pagedData => {
       this.page = pagedData.page;
       this.rows = pagedData.data;
+      // cache our list
+      this.temp = [...this.rows];
     });
   }
 
-  temp = [];
   updateFilter(event) {
     const val = event.target.value.toLowerCase();
 
     // filter our data
     const temp = this.temp.filter(function (d) {
-      return d.name.toLowerCase().indexOf(val) !== -1 || !val;
+      return d.address.toLowerCase().indexOf(val) !== -1 ||
+        d.gav.toLocaleLowerCase().indexOf(val) !== -1 ||
+        d.leased.toLocaleLowerCase().indexOf(val) !== -1 ||
+        d.leaseExpired.toLocaleLowerCase().indexOf(val) !== -1 ||
+        d.productName.toLocaleLowerCase().indexOf(val) !== -1 ||
+        d.revenue.toLocaleLowerCase().indexOf(val) !== -1 ||
+        d.type.toLocaleLowerCase().indexOf(val) !== -1 ||
+        !val;
     });
 
     // update the rows

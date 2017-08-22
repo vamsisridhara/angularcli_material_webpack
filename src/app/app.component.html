@@ -1,9 +1,53 @@
 <div class="container">
     <div class="form-group">
         <div class="row">
+            <chart-gi [inputchartVM]="chartVM"></chart-gi>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="row">
+            <chart-gi [inputchartVM]="chartVMOneLabel"></chart-gi>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
             <div class="col-md-3">
-                <dough-nut [inputLabels]="labels" 
-                [inputData]="data"></dough-nut>
+                <table class="table table-responsive">
+                    <tr>
+                        <td class='alert alert-warning'>
+                            234.95K Total Number of Sft
+                        </td>
+                         <td class='alert alert-warning'>
+                            $23.45 M Total GAV
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='alert alert-warning'>
+                           <span>55</span>
+                           <span>Total Products</span>
+                        </td>
+                         <td class='alert alert-warning'>
+                            7 Total Sectors
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='alert alert-warning'>
+                            34K Total Property
+                        </td>
+                         <td class='alert alert-warning'>
+                            34 Total Asset Managers
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='alert alert-success'>
+                            75 Total Products
+                        </td>
+                         <td class='alert alert-danger'>
+                            $100.20M Total Revenue
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="col-md-3">
                 <dough-nut [inputLabels]="labels" 
@@ -16,13 +60,12 @@
     </div>
       <div class="form-group">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-3">
                 <dough-nut [inputLabels]="labels" 
                 [inputData]="data"></dough-nut>
             </div>
-            <div class="col-md-3">
-                <dough-nut [inputLabels]="labels" 
-                [inputData]="data"></dough-nut>
+            <div class="col-sm-4">
+                <line-chart></line-chart>
             </div>
             <div class="col-md-5">
                <line-chart></line-chart>
@@ -37,5 +80,3 @@
         </div>
     </div>
 </div>
-<br/>
-<br/>

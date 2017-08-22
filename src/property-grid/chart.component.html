@@ -1,0 +1,11 @@
+
+<div class="col-md-4" *ngIf="inputchartVM">
+        <canvas baseChart width="30" height="30"
+                [datasets]="inputchartVM.chartData"
+                [labels]="inputchartVM.chartLabels"
+                [options]="inputchartVM.chartOptions"
+                [colors]="inputchartVM.chartColors"
+                [legend]="inputchartVM.chartLegend"
+                [chartType]="inputchartVM.chartType">
+        </canvas>
+</div>
