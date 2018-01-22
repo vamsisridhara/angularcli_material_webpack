@@ -1,0 +1,49 @@
+<div class="container">
+    <form novalidate #f="ngForm">
+        <div class="form-group">
+            <div class="row" *ngIf="errors && errors.length > 0">
+                <ul *ngFor="let err of errors">
+                    <li>
+                        {{ err.error }}
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="text" placeholder="Enter temperature" class="form-control" name="temperature" id="temperature" [(ngModel)]="temperature"
+                        pattern="-?[0-9]{0,10}" required />
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-primary" (click)="addTemperature()">
+                        Add
+                    </button>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-6" *ngIf="temperatures && temperatures.length > 0">
+                    <table class="table table-responsive table-striped table-hover">
+                        <tr>
+                            <th>Id</th>
+                            <th>Temperature</th>
+                            <tr *ngFor="let te of temperatures; let i = index">
+                                <td>{{i}}</td>
+                                <td>
+                                    {{te}}
+                                </td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-5">
+                    <button type="button" class="btn btn-primary" (click)="getMedian()">Get Median Temperature</button>
+                    <span *ngIf="medianTemperatures">
+                        Current Median: {{ medianTemperatures }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

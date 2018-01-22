@@ -11,8 +11,10 @@
     "pree2e": "webdriver-manager update --standalone false --gecko false",
     "e2e": "protractor"
   },
-  "private": true,  "dependencies": {
+  "private": true,
+  "dependencies": {
     "@angular/animations": "latest",
+    "@angular/cdk": "latest",
     "@angular/common": "latest",
     "@angular/compiler": "latest",
     "@angular/core": "latest",
@@ -23,8 +25,11 @@
     "@angular/platform-browser-dynamic": "latest",
     "@angular/router": "latest",
     "@types/hammerjs": "latest",
+    "bootstrap": "^3.3.7",
+    "chart.js": "^2.6.0",
     "core-js": "latest",
     "hammerjs": "latest",
+    "ng2-charts": "^1.6.0",
     "rxjs": "latest",
     "ts-helpers": "latest",
     "zone.js": "latest"
@@ -35,7 +40,7 @@
     "@angular/compiler-cli": "latest",
     "@types/hammerjs": "latest",
     "@types/jasmine": "^2.5.47",
-    "@types/node": "latest",
+    "@types/node": "^8.0.8",
     "codelyzer": "latest",
     "jasmine-core": "latest",
     "jasmine-spec-reporter": "latest",

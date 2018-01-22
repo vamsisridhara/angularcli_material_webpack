@@ -1,0 +1,12 @@
+
+<div *ngIf="isImageLoading">
+    <img [src]="imageToShow" class="resize"
+        alt="Place image title"
+        />
+</div>
+<style>
+    img.resize {
+        width: 40px; /* you can use % */
+        height: 40px;
+    }
+</style>
