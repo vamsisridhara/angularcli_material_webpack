@@ -27,7 +27,7 @@ import { BarChartComponent } from 'app/barchart.component';
     ChartsModule,
     RouterModule,
     DashboardRoutingModule,
-    MaterialModule,
+    // MaterialModule,
     ChartsModule
   ],
   providers: [

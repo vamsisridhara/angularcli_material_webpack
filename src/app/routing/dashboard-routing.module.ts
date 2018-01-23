@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MaterialModule } from '@angular/material';
 import { DashboardComponent } from '../dashboard/dashboard.component';
 import { DashboardEditComponent } from '../dashboard/dashboard-edit.component';
 import { DashboardDetailComponent } from '../dashboard/dashboard-detail.component';
 import { DashboardArchiveComponent } from '../dashboard/dashboard-archive.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import { CommonModule } from '@angular/common'; 
 const dashboardRoutes: Routes = [
     { path: 'home', component: DashboardComponent },
@@ -17,14 +15,14 @@ const dashboardRoutes: Routes = [
 ];
 @NgModule({
     imports: [
-        MaterialModule,
+        // MaterialModule,
         BrowserAnimationsModule,
         CommonModule,
         RouterModule.forRoot(dashboardRoutes)
     ],
     exports: [
         RouterModule,
-        MaterialModule
+        // MaterialModule
     ],
     declarations: [
         DashboardComponent,
