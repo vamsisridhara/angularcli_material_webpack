@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 @Component({
-    selector: '',
+    // selector: '',
     templateUrl: './dashboard-detail.component.html',
-    //moduleId: module.Id
+    // moduleId: module.Id
 })
 export class DashboardDetailComponent implements OnInit {
     constructor() { }

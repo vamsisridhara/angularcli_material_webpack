@@ -9,9 +9,12 @@ import { ChartsModule } from 'ng2-charts';
 import { AppComponent } from './app.component';
 import { DashboardRoutingModule } from './routing/dashboard-routing.module';
 import { DashboardService } from './dashboard/dashboard.service';
-import { CommonModule } from '@angular/common'; 
+import { CommonModule } from '@angular/common';
 import { BarChartComponent } from 'app/barchart.component';
-
+import { PapaParseModule, PapaParseService } from 'ngx-papaparse';
+// https://github.com/typestack/class-transformer
+import 'reflect-metadata';
+import 'es6-shim';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,11 +30,12 @@ import { BarChartComponent } from 'app/barchart.component';
     ChartsModule,
     RouterModule,
     DashboardRoutingModule,
-    // MaterialModule,
+    PapaParseModule,
     ChartsModule
   ],
   providers: [
     DashboardService,
+    PapaParseService
   ],
   bootstrap: [AppComponent],
 })

@@ -5,8 +5,10 @@ import { DashboardEditComponent } from '../dashboard/dashboard-edit.component';
 import { DashboardDetailComponent } from '../dashboard/dashboard-detail.component';
 import { DashboardArchiveComponent } from '../dashboard/dashboard-archive.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CommonModule } from '@angular/common'; 
+import { CommonModule } from '@angular/common';
+import { FileUploadCsvComponent } from '../file-upload-csv/file-upload-csv.component';
 const dashboardRoutes: Routes = [
+    { path: 'fileupload', component: FileUploadCsvComponent },
     { path: 'home', component: DashboardComponent },
     { path: 'edit', component: DashboardEditComponent },
     { path: 'archive', component: DashboardArchiveComponent },
@@ -28,7 +30,10 @@ const dashboardRoutes: Routes = [
         DashboardComponent,
         DashboardEditComponent,
         DashboardArchiveComponent,
-        DashboardDetailComponent
+        DashboardDetailComponent,
+        FileUploadCsvComponent
     ]
 })
-export class DashboardRoutingModule { }
+export class DashboardRoutingModule {
+
+}
